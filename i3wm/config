@@ -222,14 +222,14 @@ bar {
     height 18
     colors {
             separator  #c9c9c9
-            background #000000
+            background #1a1a1a
             statusline #c9c9c9
 
             #                   border  background text
-            focused_workspace  $base01 $base01    #81a1c1
+            focused_workspace  $base01 $base01    #c3c3c3
             active_workspace   $base01 $base02    $base03
-            inactive_workspace $base01 $base01    #4c566a
+            inactive_workspace $base01 $base01    #696969
             urgent_workspace   $base01 $base01    $base08
-            binding_mode       $base01 #81a1c1    #2e3440
+            binding_mode       $base01 #a5a5a5    #2e3440
     }
 }
